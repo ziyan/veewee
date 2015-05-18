@@ -32,7 +32,6 @@ Gem::Specification.new do |s|
   #s.add_dependency "cucumber", ">=1.0.0"
   s.add_dependency "ansi", "~> 1.3.0"
   s.add_dependency "ruby-vnc", "~> 1.0.0"
-  s.add_dependency "fog", "~> 1.8"
   s.add_dependency "childprocess"
   s.add_dependency "grit"
   s.add_dependency "fission", "0.5.0"
@@ -41,6 +40,8 @@ Gem::Specification.new do |s|
   s.add_dependency "gem-content", "~>1.0"
 
   s.required_ruby_version = '>= 1.9.3'
+
+  s.add_runtime_dependency 'fog-libvirt', '~> 0.0.1'
 
   # Modified dependency version, as libxml-ruby dependency has been removed in version 2.1.1
   # See : https://github.com/ckruse/CFPropertyList/issues/14
