@@ -46,7 +46,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 1.9.3'
 
-  s.add_runtime_dependency 'fog-libvirt', '~> 0.0.1'
+  s.add_runtime_dependency 'fog-libvirt', '0.0.3'
 
   # Modified dependency version, as libxml-ruby dependency has been removed in version 2.1.1
   # See : https://github.com/ckruse/CFPropertyList/issues/14
